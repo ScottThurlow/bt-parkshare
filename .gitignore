@@ -1,0 +1,13 @@
+# Database
+data/*.db
+data/*.db-wal
+data/*.db-shm
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
