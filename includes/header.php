@@ -12,6 +12,9 @@ $currentPage = basename($_SERVER['SCRIPT_NAME'], '.php');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= isset($pageTitle) ? sanitize($pageTitle) . ' — ' : '' ?><?= SITE_NAME ?></title>
+    <link rel="icon" type="image/x-icon" href="<?= SITE_URL ?>/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="<?= SITE_URL ?>/images/bt-silhouette.svg">
+    <link rel="apple-touch-icon" href="<?= SITE_URL ?>/images/apple-touch-icon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
     <link href="<?= SITE_URL ?>/assets/css/style.css" rel="stylesheet">
