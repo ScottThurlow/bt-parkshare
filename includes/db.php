@@ -1,8 +1,20 @@
 <?php
 require_once __DIR__ . '/../config.php';
 
+function resetDB(): void {
+    $ref = new ReflectionFunction('getDB');
+    $statics = $ref->getStaticVariables();
+    // Force re-creation on next call by clearing the static
+    // We achieve this by using a global flag
+    $GLOBALS['_db_reset'] = true;
+}
+
 function getDB(): PDO {
     static $pdo = null;
+    if (isset($GLOBALS['_db_reset']) && $GLOBALS['_db_reset']) {
+        $pdo = null;
+        $GLOBALS['_db_reset'] = false;
+    }
     if ($pdo === null) {
         $dir = dirname(DB_PATH);
         if (!is_dir($dir)) {

@@ -3,10 +3,17 @@ data/*.db
 data/*.db-wal
 data/*.db-shm
 
+# Dependencies
+vendor/
+composer.phar
+
 # IDE
 .idea/
 .vscode/
 *.swp
+
+# Test artifacts
+.phpunit.result.cache
 
 # OS
 .DS_Store
