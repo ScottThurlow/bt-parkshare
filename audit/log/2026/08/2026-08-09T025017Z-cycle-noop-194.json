@@ -1,0 +1,8 @@
+{
+  "event": "cycle-noop",
+  "timestamp": "2026-08-09T02:50:17Z",
+  "pr": 194,
+  "reason": "PR #194 unchanged (head=cf26ef6dfa65ec50738dffec113ca8e734c1df8c), already overseer-reviewed and escalated needs-human 2026-06-29/30, no new human APPROVED review since. No action taken per #849 idempotency guard.",
+  "merge_audit": "no bot-merged PRs in last 2h window; all recent merges human (ScottThurlow)",
+  "release_gate": "no open release-request issues"
+}

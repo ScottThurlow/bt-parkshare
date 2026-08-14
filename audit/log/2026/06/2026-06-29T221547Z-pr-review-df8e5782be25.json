@@ -1,0 +1,1 @@
+{"actor":"hos-overseer-cps[bot]","decision":"HUMAN_REQUIRED","event":"pr-review","head":"0b1b9f9cf722a022bdf34b06cec9a487c7f4882f","overseer_approved":true,"pr":193,"reason":"sound LOW/infra fix, overseer-approved; merge is human-only (push=false, merge_authority.py absent); Validation stamps current red = infra #180","timestamp":"2026-06-29T22:15:47Z"}

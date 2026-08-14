@@ -1,0 +1,7 @@
+{
+  "event": "cycle-noop",
+  "timestamp": "2026-08-04T15:31:02Z",
+  "pr": 194,
+  "reason": "standing needs-human, head cf26ef6 unchanged, no human APPROVED review present, previously escalated 2026-06-29/30, idempotency guard (#849) prevents re-post",
+  "actor": "hos-overseer-cps[bot]"
+}

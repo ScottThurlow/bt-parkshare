@@ -1,0 +1,6 @@
+{
+  "event": "overseer-cycle-noop",
+  "timestamp": "2026-08-08T123051Z",
+  "cycle": "2026-08-08T12:30:51Z",
+  "details": "No new merges in 2h audit window (all recent merges human, from June). No release-gate issues open for milestone 6. PR #194 unchanged since last review (head cf26ef6), already needs-human/escalated, no re-post per idempotency (#849)."
+}

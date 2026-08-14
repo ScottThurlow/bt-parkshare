@@ -1,0 +1,6 @@
+{
+  "event": "cycle-noop",
+  "pr": 194,
+  "reason": "standing needs-human, head unchanged at cf26ef6, already reviewed/escalated/audited, awaiting ScottThurlow merge",
+  "timestamp": "2026-08-13T040123Z"
+}
